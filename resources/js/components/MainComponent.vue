@@ -1,5 +1,5 @@
 <template>
-        <section class="container py-5 pb-5 pt-5">
+        <section class="container py-1 pb-5 pt-1">
             <div class="pt-4">
             <h1 class="text-center mb-2 text-success pt-5 mt-5">COSA VORRESTI MANGIARE ?</h1>
             </div >

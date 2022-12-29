@@ -283,7 +283,14 @@ var render = function render() {
       staticClass: "count"
     }, [_vm._v("q." + _vm._s(dish.count))]), _c("br"), _vm._v(" "), _c("span", {
       staticClass: "price"
-    }, [_vm._v("price" + _vm._s(_vm.formater(dish.count * dish.price)))])]);
+    }, [_vm._v("price" + _vm._s(_vm.formater(dish.count * dish.price)))]), _vm._v(" "), _c("div", {
+      staticClass: "btn btn-danger mx-2 px-3 py-1",
+      on: {
+        click: function click($event) {
+          return _vm.removeDish(dish);
+        }
+      }
+    }, [_vm._v("\n                        Rimuovi\n                    ")])]);
   }), _vm._v(" "), _c("div", [_vm._v("Totale:" + _vm._s(_vm.totalPrice()))]), _vm._v(" "), _c("button", {
     staticClass: "btn btn-danger mt-5",
     on: {
